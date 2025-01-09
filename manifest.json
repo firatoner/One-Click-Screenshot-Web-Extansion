@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "One Click Screenshot",
+  "version": "1.0",
+  "description": "Tek tıkla ekran görüntüsü alma eklentisi",
+  "permissions": [
+    "activeTab",
+    "downloads"
+  ],
+  "action": {
+    "default_title": "Ekran Görüntüsü Al"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+} 
